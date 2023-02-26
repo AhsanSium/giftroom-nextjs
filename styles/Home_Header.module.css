@@ -1,0 +1,52 @@
+.headingText {
+    text-align: start;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    /* or 100% */
+    letter-spacing: -0.02em;
+    padding-top: 2rem;
+
+    color: #000000;
+}
+
+.secondHeadingText {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 48px;
+    /* or 50px */
+    /* margin-top: 2rem; */
+    letter-spacing: -1px;
+
+    color: #3772FF;
+}
+
+.emailText {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: -0.355556px;
+
+    color: #000000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .headingText {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .secondHeadingText {
+
+        font-weight: 800;
+        font-size: 28px;
+    }
+}

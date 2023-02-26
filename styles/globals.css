@@ -1,0 +1,513 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width: 450px) {
+  html {
+    width: fit-content;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#Search_Input:focus-visible {
+  outline: 0px solid rgb(233, 231, 231);
+  border-radius: 5px;
+}
+
+.headingText {
+  text-align: start;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 70px;
+  /* or 100% */
+  letter-spacing: -0.02em;
+  padding-top: 2rem;
+
+  color: #000000;
+}
+
+.headingText2 {
+  text-align: start;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  /* or 100% */
+  letter-spacing: -0.02em;
+  padding-top: 2rem;
+
+  color: #000000;
+}
+
+.headingText3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  /* or 100% */
+  letter-spacing: -0.02em;
+  padding-top: 2rem;
+
+  color: #000000;
+}
+
+.secondHeadingText {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 48px;
+  /* or 50px */
+  /* margin-top: 2rem; */
+  letter-spacing: -1px;
+
+  color: #3772FF;
+}
+
+.cardHeadingText {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 48px;
+  /* or 50px */
+  /* margin-top: 2rem; */
+  letter-spacing: 1px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.cardHeadingText2 {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 38px;
+  /* or 50px */
+  /* margin-top: 2rem; */
+  letter-spacing: 1px;
+}
+
+.homeBannerHeadingText {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 48px;
+  /* or 50px */
+  /* margin-top: 2rem; */
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.homeBannerMidText {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+
+.cardListText {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 28px;
+  /* or 50px */
+  /* margin-top: 2rem; */
+
+  color: #ffffff;
+}
+
+.thirdHeadingText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: 'black';
+  /* or 133% */
+
+  letter-spacing: -0.02em;
+
+  /* Neutrals/2 */
+
+  color: #23262F;
+}
+
+.commonMid1Text {
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.gradientBlueBg {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.gradientViolateBg {
+  background-color: #812fff;
+  background-image: linear-gradient(0deg, #812fff 0%, #FC00FF 100%);
+
+}
+
+.gradientGeneralBlue {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.emailText {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: -0.355556px;
+
+  color: #000000;
+}
+
+.midText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  /* line-height: 64px; */
+  /* or 133% */
+
+  letter-spacing: -0.01em;
+
+  /* Neutrals/2 */
+
+  color: #23262F;
+}
+
+.greyText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+
+  /* Neutrals/4 */
+
+  color: #777E91;
+}
+
+.midSectionText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #000000;
+}
+
+.homeSection1BG {
+  background-image: url("../public/Assets/Images/PartyPopper.svg");
+  background-attachment: local;
+}
+
+.icoPageBgStyle {
+  background-image: url("../public/Assets/Images/Money.svg");
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homeSection1List {
+  cursor: pointer;
+  background: #FCFCFD;
+  /* depth/4 */
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.homeSection1List:hover {
+  /* box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.1); */
+  box-shadow: 1px 17px 64px 0px rgb(31 47 70 / 31%);
+}
+
+.customPaddingLeft {
+  padding-left: 10%;
+}
+
+.cardStyle {
+  background: #FCFCFD;
+  border-radius: 16px;
+  box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+  /* Inside auto layout */
+}
+
+.cardStyle:hover {
+  background: #FCFCFD;
+  /* depth/4 */
+  /* box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12); */
+  box-shadow: 1px 17px 64px 0px rgb(31 47 70 / 31%);
+  /* margin: 1.5rem; */
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cardStyle2 {
+  background: #FCFCFD;
+  border-radius: 16px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.23));
+}
+
+.cardStyle2:hover {
+  box-shadow: 1px 17px 64px 0px rgb(31 47 70 / 31%);
+  /* margin: 1.5rem; */
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.rewardsCardText {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  color: white;
+}
+
+.digitalCardStyle1 {
+  border-radius: 50px;
+  background: linear-gradient(180deg, rgba(218, 34, 78, 0.93) 0%, rgb(87 7 136) 100%);
+}
+
+.digitalCardStyle2 {
+  /* background: linear-gradient(180deg, rgba(38, 78, 221, 0.39) 57.81%, #4538DB 72.4%); */
+  /* background-image: linear-gradient(341deg, #4faaff 19%, #0942e6 100%); */
+  background: linear-gradient(180deg, rgb(38 78 221) 57.81%, #4538DB 72.4%);
+
+
+
+  border-radius: 50px;
+}
+
+
+.giftTokenCardStyle {
+  box-shadow: 3px 1px 7px 0px rgb(72 124 198 / 46%);
+
+}
+
+.giftTokenCardStyle:hover {
+  /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25); */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  /* margin: 1.5rem; */
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.homeBannerBg {
+  background: linear-gradient(180deg, rgba(114, 20, 208, 0.93) 10.3%, rgba(32, 68, 197, 0.81) 77.4%);
+
+}
+
+.homeBannerButton {
+  background: linear-gradient(180deg, #FF1F1F 0%, #AB25C0 100%, rgba(70, 68, 27, 0) 100%);
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: DM Sans;
+}
+
+.homeBannerButton:hover {
+  background: linear-gradient(180deg, #cc0404 0%, #8a149c 100%, rgba(70, 68, 27, 0) 100%);
+}
+
+.howItWorksCard {
+  background: #F0F0F0;
+  /* background-blend-mode: exclusion;
+  filter: blur(2px); */
+  border-radius: 41px;
+}
+
+.howItWorksCard:hover {
+  cursor: pointer;
+  /* background: #FCFCFD; */
+  /* depth/4 */
+  /* box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12); */
+  box-shadow: 1px 17px 64px 0px rgb(31 47 70 / 31%);
+  /* margin: 1.5rem; */
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.comingSoonCard {
+  background: #FCFCFD;
+  /* depth/4 */
+  /* box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12); */
+  /* box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12); */
+  border-radius: 16px 20px 20px 20px;
+  box-shadow: 2px -4px 13px 6px rgb(44 47 52 / 12%);
+}
+
+.comingSoonCard:hover {
+  box-shadow: 1px 17px 64px 0px rgb(31 47 70 / 31%);
+  /* margin: 1.5rem; */
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.separatorSpan1 {
+  /* position: absolute; */
+  width: 2px;
+  height: 40px;
+  left: 213px;
+  top: 16px;
+
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.menuMidText1 {
+  /* font-family: 'DM Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.icoGeneralFont {
+  font-family: "Poppins";
+}
+
+.icoPageBoxStyle {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .headingText {
+    font-size: 65px;
+    font-weight: 600;
+  }
+
+  .secondHeadingText {
+
+    font-weight: 800;
+    font-size: 48px;
+  }
+
+  .thirdHeadingText {
+    font-weight: 800;
+    font-size: 40px;
+
+    /* Neutrals/2 */
+  }
+
+  .cardHeadingText {
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .cardHeadingText2 {
+    font-weight: 700;
+    font-size: 34px;
+  }
+
+  .homeBannerHeadingText {
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  .homeBannerMidText {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+
+
+  .midText {
+
+    font-weight: 500;
+    font-size: 32px;
+
+
+  }
+
+  .headingText2 {
+
+    font-size: 40px;
+    line-height: 70px;
+    /* or 100% */
+
+  }
+
+  .headingText3 {
+
+    font-size: 40px;
+    line-height: 70px;
+    /* or 100% */
+
+  }
+
+  .customPaddingLeft {
+    padding-left: 1%;
+  }
+
+  .greyText {
+    font-size: 20px;
+  }
+
+  .midSectionText {
+    font-size: 30px;
+  }
+
+  .cardListText {
+    /* font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px; */
+    /* or 50px */
+    /* margin-top: 2rem; */
+
+  }
+
+  .homeBannerButton {
+    font-size: 18px;
+    font-weight: 500px;
+  }
+}
