@@ -1,5 +1,5 @@
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
-import NewsletterForm from "./NewsletterForm";
+import NewsletterForm from "../Common/NewsLetterForm";
 
 const NewsletterSubscribe = ({ modalRef, color }) => {
 
