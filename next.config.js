@@ -4,4 +4,7 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  resolve: {
+    extensions: [".jsx", ".js"]
+  },
 }
