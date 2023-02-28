@@ -7,5 +7,5 @@ module.exports = {
   resolve: {
     extensions: [".jsx", ".js"]
   },
-  basePath: '/giftroom-nextj',
+
 }
