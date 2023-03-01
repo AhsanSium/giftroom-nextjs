@@ -96,7 +96,7 @@ const IcoMain = () => {
                 if (data.status != 200) {
                     alert(data.statusText);
                 }
-                console.log(data);
+                //console.log(data);
                 // refreshData();
                 //window.location.reload();
                 setSavedData(content);

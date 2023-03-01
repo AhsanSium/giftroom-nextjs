@@ -69,7 +69,7 @@ const AdminMain = () => {
 
     useEffect(() => {
         getPost();
-        console.log(savedData);
+        //console.log(savedData);
     }, [setSavedData]);
 
     const createOrUpdatePost = async (content) => {

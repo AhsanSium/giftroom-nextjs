@@ -5,7 +5,7 @@ export default withApiAuthRequired(async function handler(req, res) {
     const content = JSON.stringify(req.body.content);
     const id = req.body.id;
 
-    console.log(content);
+    //console.log(content);
 
     try {
 

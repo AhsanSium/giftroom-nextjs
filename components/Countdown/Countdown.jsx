@@ -56,7 +56,7 @@ const Countdown = () => {
     const handleClick = () => {
 
         setTime(newTime);
-        console.log(time);
+        //console.log(time);
         setNewTime(0);
     };
 

@@ -39,7 +39,7 @@ const NewsletterForm = ({ status, message, onValidated, modalRef, color }) => {
         const isFormValidated = onValidated({ EMAIL: email });
 
         // On success return true
-        console.log(email, email.indexOf("@"), isFormValidated, message, status);
+        //console.log(email, email.indexOf("@"), isFormValidated, message, status);
 
         return email && email.indexOf("@") > -1 && isFormValidated;
     }

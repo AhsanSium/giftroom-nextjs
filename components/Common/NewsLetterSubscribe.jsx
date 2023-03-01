@@ -11,7 +11,7 @@ const NewsletterSubscribe = ({ modalRef, color }) => {
             render={(props) => {
                 const { subscribe, status, message } = props || {};
 
-                console.log("Status", status);
+                //console.log("Status", status);
                 if (status === "success") {
                     modalRef ? modalRef.current.checked = true : null;
                 }

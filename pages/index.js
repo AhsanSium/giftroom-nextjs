@@ -19,7 +19,7 @@ import FlexImageIcons from '../components/FlexImageIcons/FlexImageIcons';
 
 export default function Home({ text }) {
 
-  console.log("DYnamic Text", text);
+  //log("DYnamic Text", text);
 
   const modalRef = useRef(null);
 
@@ -84,7 +84,7 @@ export async function getServerSideProps({ params }) {
   const data = {
     id: id,
   };
-  console.log(data);
+  //console.log(data);
 
   await fetch('https://giftroom.gifts/api/getDBData', {
     body: JSON.stringify(data),
