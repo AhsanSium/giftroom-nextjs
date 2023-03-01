@@ -13,7 +13,8 @@ export default withApiAuthRequired(async function handler(req, res) {
             host: process.env.HOST,
             user: process.env.USER,
             database: process.env.MYSQL_DB,
-            password: process.env.DB_PASS
+            password: process.env.DB_PASS,
+            port: process.env.PORT
         });
 
         const query = `UPDATE text SET content = '${content}' WHERE id = '${id}'`;
