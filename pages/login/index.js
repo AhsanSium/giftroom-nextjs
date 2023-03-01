@@ -1,14 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import IcoHeader from '../../components/IcoHeader/IcoHeader';
-import IcoMenu from '../../components/IcoMenu/IcoMenu'
-import IcoMission from '../../components/IcoMission/IcoMission';
-import moneyImage from "../../public/Assets/Images/Money.svg";
-import IcoRewards from '../../components/IcoRewards/IcoRewards';
-import IcoTokenomics from '../../components/Tokenomics/IcoTokenomics';
-import IcoGiftToken from '../../components/IcoGiftToken/IcoGiftToken';
+import Head from 'next/head';
+// import Image from 'next/image';
+// import IcoHeader from '../../components/IcoHeader/IcoHeader';
+// import IcoMenu from '../../components/IcoMenu/IcoMenu'
+// import IcoMission from '../../components/IcoMission/IcoMission';
+// import moneyImage from "../../public/Assets/Images/Money.svg";
+// import IcoRewards from '../../components/IcoRewards/IcoRewards';
+// import IcoTokenomics from '../../components/Tokenomics/IcoTokenomics';
+// import IcoGiftToken from '../../components/IcoGiftToken/IcoGiftToken';
 import LoginFirstPage from '../../components/LoginFirstPage/LoginFirstPage';
-import FooterSection from '../../components/FooterSection/FooterSection';
+// import FooterSection from '../../components/FooterSection/FooterSection';
+import LoginMenu from '../../components/Menu/LoginMenu';
 
 export default function Login() {
     return (
@@ -27,12 +28,13 @@ export default function Login() {
                 </style>
             </Head>
 
-            <main>
-                <div className='bg-blue-500'>
-                    <IcoMenu />
+            <main className='bg-[#3772FF] h-screen'>
+                <div className='bg-[#3772FF]'>
+                    {/* <IcoMenu /> */}
+                    <LoginMenu />
                 </div>
 
-                <div className='bg-blue-500 pb-5'>
+                <div className='bg-[#3772FF] pb-5'>
                     <LoginFirstPage />
                 </div>
 

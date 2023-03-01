@@ -55,9 +55,11 @@ export default function Home({ text }) {
           </section> */}
           <section id="feature_section">
             <GetVerified text={text} />
-            <DigitalAssets text={text} />
-            {/* <HomeBanner text={text} /> */}
           </section>
+          <section id="how-it-works">
+            <DigitalAssets text={text} />
+          </section>
+          {/* <HomeBanner text={text} /> */}
           {/* <section id="how-it-works">
             <HowItWorks text={text} />
           </section> */}

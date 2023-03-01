@@ -47,7 +47,7 @@ function MobileNav({ open, setOpen }) {
     )
 }
 
-export default function Menu() {
+export default function LoginMenu() {
 
     const [open, setOpen] = useState(false)
     return (
@@ -79,15 +79,15 @@ export default function Menu() {
                 </div>
             </div>
 
-            <div className="hidden lg:flex w-4/12 flex items-center relative">
+            {/* <div className="hidden lg:flex w-4/12 flex items-center relative">
                 <input id="Search_Input" type="text" placeholder="search"
                     className="text-white placeholder-white/[.8] w-full border-2 border-white p-1 pl-3 rounded-md bg-[#3772FF]"
                 />
                 <div className="flex absolute inset-y-0 right-5 items-center pl-3 pointer-events-none">
                     <svg className="w-5 h-5 text-white " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
-            </div>
-            <div className="w-full lg:w-4/12 flex justify-end items-center">
+            </div> */}
+            <div className="w-full flex justify-end items-center">
 
                 <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
                     setOpen(!open)
@@ -100,22 +100,23 @@ export default function Menu() {
 
                 <div className={[styles.menuMidText, " ml-5 hidden md:flex"].join(' ')}>
 
-                    <Link href="/ico">
-                        <button className=" mr-2 w-24 lg:w-32 bg-white py-2 px-4
+                    <Link href="/">
+                        <button className=" mr-2 w-24 lg:w-32 bg-transparent py-2 px-4
                         border-2
-                        text-black
+                        text-white
                         rounded-full hover:bg-blue-500 hover:text-white
                         hover:border-2
+                        hover:border-white
                         tracking-wide
                         ">
-                            ICO
+                            $gifttoken
 
                         </button>
                     </Link>
 
                     {/* <NavLink to="/ico">
                     </NavLink> */}
-                    <Link className="ml-4" href="/login">
+                    {/* <Link className="ml-4" href="/login">
                         <button className="w-24 lg:w-32 mr-2 bg-[#DC02AC] text-white py-[10px] px-[10px] rounded-full hover:bg-white
                         border-2
                         hover:text-black
@@ -123,7 +124,7 @@ export default function Menu() {
                         ">
                             Login
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </nav>

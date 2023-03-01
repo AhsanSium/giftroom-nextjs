@@ -3,6 +3,7 @@
 // import { useEffect } from "react";
 import Image from "next/image";
 import globeGiftImage from "../../public/Assets/Images/glob gift.png";
+import Link from "next/link";
 
 // let isMobile;
 // if (typeof window !== "undefined") {
@@ -41,10 +42,14 @@ const LoginFirstPage = () => {
 
         <div
             className="mx-5 bg-white px-10 pb-10" style={{ borderRadius: '44px' }}>
-            <h3 className="text-[#6A708D] text-lg pt-10">INITIAL COIN OFFERING</h3>
-            <div className="md:flex pt-5 w-full justify-center items-start mt-20">
+            <Link href="/">
+                <h3 className="text-[#6A708D] text-lg pt-10 cursor-pointer">
+                    {"< "} Home
+                </h3>
+            </Link>
+            <div className="md:flex container pt-5 w-full justify-center items-start mt-20">
 
-                <div className="w:full md:w-6/12 ">
+                <div className="w:full md:w-7/12 ">
                     <div className="">
                         <h1 className="commonMid1Text font-bold lg:text-5xl sm:text-3xl text-4xl text-black text-left text-center">We’re still developing, < br />
                             come back later!</h1>
@@ -54,7 +59,7 @@ const LoginFirstPage = () => {
                     </div>
                 </div>
 
-                <div className="w-full md:w-6/12 px-5 flex-col justify-center items-center">
+                <div className="w-full md:w-5/12 px-5 flex-col justify-center items-center">
                     <div className="md:ml-8 w-full lg:w-[450px] md:px-8">
 
                         <h5 className="commonMid1Text font-semibold text-xl text-black my-4" >Account Login</h5>
