@@ -44,7 +44,7 @@ const IcoFooter = () => {
 
                         <div className=" flex flex-col justify-center items-center ">
 
-                            <h2 style={{ color: 'white' }} className="headingText2 ">Join the waitlist</h2>
+                            <h2 style={{ color: 'white' }} className="icoFooterHeadingText ">Join the waitlist</h2>
 
                             {/* <p className="commonMid1Text text-lg p-2">Subscribe and be notified of upcoming collections </p> */}
 

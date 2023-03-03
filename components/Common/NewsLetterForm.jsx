@@ -108,7 +108,7 @@ const NewsletterForm = ({ status, message, onValidated, modalRef, color }) => {
                             <input
                                 onChange={(event) => setEmail(event?.target?.value ?? '')}
                                 type="email"
-                                placeholder="Email" id="default-search" className="block p-4 pl-14  w-full text-md text-white placeholder-white  bg-transparent bg-opacity-80 rounded-xl border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="Email" id="default-search" className="block p-4 pl-14  w-full text-md text-white placeholder-white  bg-transparent bg-opacity-80 rounded-[24px] border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                                 required
                             />
                             :
@@ -130,7 +130,7 @@ const NewsletterForm = ({ status, message, onValidated, modalRef, color }) => {
                     }
                     {
                         color === 'homeBlue' &&
-                        <button type="submit" className="wp-block-button__link w-32 lg:w-48 text-md lg:text-lg text-white absolute right-0 bottom-0 top-0 bg-[#1A3AE2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-xl text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        <button type="submit" className="wp-block-button__link w-32 lg:w-48 text-md lg:text-lg text-white absolute right-0 bottom-0 top-0 bg-[#1A3AE2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[24px] text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             onClick={handleFormSubmit}>
                             Subscribe
                         </button>

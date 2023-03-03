@@ -37,7 +37,7 @@ const IcoRewards = ({ text }) => {
             className="mx-5 bg-white px-10 pb-10" style={{ borderRadius: '44px' }}>
             <div className="flex pt-10 md:pt-40 w-full">
                 <div className="w-9/12 md:w-9/12 lg:w-10/12">
-                    <h1 className="w-full lg:w-8/12 text-7xl font-bold  text-black text-left">
+                    <h1 className="w-full lg:w-8/12 icoRewardsHeadingh1Text  text-black text-left">
                         {text.icoPageText9 ? text.icoPageText9 : 'Rewards'}
                     </h1>
                     {/* <h5 className="commonMid1Text font-semibold text-2xl text-black my-4" >
@@ -58,8 +58,8 @@ const IcoRewards = ({ text }) => {
                 <div className="md:flex justify-center p-2 md:w-8/12 w-full">
 
                     <div className="w-full md:w-4/12 digitalCardStyle1 m-2 pb-20">
-                        <h3 className="rewardsCardText text-center text-3xl font-bold  p-3">For Gifting</h3>
-                        <div className="w-full border-b-2"></div>
+                        <h3 className="icoRewardsCardHeading text-center font-bold text-white p-3">For Gifting</h3>
+                        <div className="w-full border-b-4"></div>
 
                         <ul className="cardListText p-3">
                             <li className="p-2 flex">
@@ -73,8 +73,8 @@ const IcoRewards = ({ text }) => {
                     </div>
 
                     <div className="w-full md:w-4/12  digitalCardStyle2 m-2 pb-20">
-                        <h3 className="rewardsCardText text-center text-3xl font-bold p-3">Referrals</h3>
-                        <div className="w-full border-b-2"></div>
+                        <h3 className="icoRewardsCardHeading text-center font-bold text-white p-3">Referrals</h3>
+                        <div className="w-full border-b-4"></div>
 
                         <ul className="cardListText p-3">
                             <li className="p-2 flex">
@@ -89,8 +89,8 @@ const IcoRewards = ({ text }) => {
 
 
                     <div style={{ background: ' linear-gradient(rgb(34 218 174) 0%, rgb(7, 43, 136) 100%);' }} className="w-full md:w-4/12 digitalCardStyle1 m-2 pb-20 xl:min-h-[350px]">
-                        <h3 className="rewardsCardText text-3xl font-bold text-center  p-3">Discounts</h3>
-                        <div className="w-full border-b-2"></div>
+                        <h3 className="icoRewardsCardHeading text-center font-bold text-white p-3">Discounts</h3>
+                        <div className="w-full border-b-4"></div>
 
                         <ul className="cardListText p-3">
                             <li className="p-2 flex">

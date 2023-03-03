@@ -36,9 +36,9 @@ const GiftingAndCollecting = ({ text }) => {
             className=" flex justify-start  bg-contain bg-auto bg-no-repeat bg-right-bottom mx-auto p-5 pb-20 lg:px-16 " style={{ backgroundImage: `url("${globBg.src}")`, backgroundPosition: "right 10px top 390px" }}
         >
             <div className="mt-5 md:mt-32">
-                <h1 className="text-end font-[Source Sans Pro] text-6xl font-bold">{text.homePageText12 ? text.homePageText12 : 'Next-Gen Gifting and Collecting'}</h1>
+                <h1 className="text-end headingTextNew3">{text.homePageText12 ? text.homePageText12 : 'Next-Gen Gifting and Collecting'}</h1>
                 {/* <h3 style={{ lineHeight: '50px' }} className="text-end thirdHeadingText py-4">{text.homePageText13 ? text.homePageText13 : 'Socially Interact and Exchange'}</h3> */}
-                <p className="ml-auto mr-0 lg:w-7/12 py-3 midText text-end">
+                <p className="ml-auto mr-0 lg:w-7/12 py-3 commonNewText text-end">
                     {text.homePageText14 ? text.homePageText14 : 'We offer the perfect ability to engage and get acknowledgment from their audience. You can now'}
 
                 </p>

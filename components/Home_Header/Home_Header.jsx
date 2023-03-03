@@ -46,13 +46,13 @@ const Home_Header = ({ text, modalRef }) => {
                 <div className="w-full md:w-8/12 flex flex-col pb-5 justify-evenly p-4 xl:p-0 rounded-xl xl:bg-transparent bg-slate-200/80 lg:shadow-none shadow-lg">
                     {
                         text.homePageText1 ?
-                            <h1 className="text-5xl lg:w-9/12 md:text-7xl font-extrabold ">
+                            <h1 style={{ textShadow: '.5px 0 black' }} className="headingText ">
                                 {text.homePageText1.split("br")[0]}
                                 {React.createElement('br')}
                                 {text.homePageText1.split("br")[1]}
                             </h1>
                             :
-                            <h1 className="text-5xl lg:w-9/12 md:text-7xl font-extrabold ">
+                            <h1 style={{ textShadow: '.5px 0 black' }} className="headingText ">
                                 A Social Platform to Send <br />and Collect Digital Assets
                             </h1>
 
@@ -62,12 +62,13 @@ const Home_Header = ({ text, modalRef }) => {
 
                         {
                             text.homePageText2 ?
-                                <h4 style={{ fontWeight: '900', fontSize: '45px', textShadow: '1px 0 #3772FF', letterSpacing: '-1px' }} className=" my-6 text-[#3772FF] text-4xl">{text.homePageText2}</h4>
+                                <h4 className=" my-6 secondHeadingText">{text.homePageText2}</h4>
 
                                 :
-                                <h4 style={{ fontWeight: '900', fontSize: '45px', textShadow: '1px 0 #3772FF', letterSpacing: '-1px' }} className=" my-6 text-[#3772FF] text-4xl">{homePageText.homePageText2}</h4>
+                                <h4 className=" my-6 secondHeadingText">{homePageText.homePageText2}</h4>
 
                         }
+
 
                         {/* <small className={styles.emailText}>{homePageText.homePageText3}</small> */}
 

@@ -33,9 +33,9 @@ const ComingSoon = () => {
 
         <div
 
-            className="my-12 pb-20">
+            className="my-12 pb-20 pt-20">
             <div className="container mx-auto p-5">
-                <h2 style={{ fontSize: '55px', textAlign: 'center' }} className="headingText2">Coming Soon..</h2>
+                <h2 className="digitalAssetsHeadingText">Coming Soon..</h2>
             </div>
             <div className="container mx-auto p-5 lg:flex  pb-16">
 

@@ -51,7 +51,7 @@ const LoginFirstPage = () => {
 
                 <div className="w:full md:w-7/12 ">
                     <div className="">
-                        <h1 className="commonMid1Text font-bold lg:text-5xl sm:text-3xl text-4xl text-black text-left text-center">We’re still developing, < br />
+                        <h1 className="loginMainHeadingText text-black text-center">We’re still developing, < br />
                             come back later!</h1>
                     </div>
                     <div className="pt-5">
@@ -62,8 +62,8 @@ const LoginFirstPage = () => {
                 <div className="w-full md:w-5/12 px-5 flex-col justify-center items-center">
                     <div className="md:ml-8 w-full lg:w-[450px] md:px-8">
 
-                        <h5 className="commonMid1Text font-semibold text-xl text-black my-4" >Account Login</h5>
-                        <p className="commonMid1Text text-slate-500">If you are already a member you can login with your email address and password.</p>
+                        <h5 className="icoMailSubscribeText text-black my-4" >Account Login</h5>
+                        <p className=" font-[poppins] text-slate-500">If you are already a member you can login with your email address and password.</p>
 
                         <div class="mb-6 pt-10">
                             <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>

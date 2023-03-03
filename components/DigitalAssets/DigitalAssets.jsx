@@ -34,16 +34,16 @@ const DigitalAssets = ({ text }) => {
         //     initial="hidden"
         //     animate={control}
         <div
-            className="sm:mt-20 md:mt-32 mx-auto p-5">
+            className="sm:mt-20 md:mt-32 lg:mt-10 mx-auto p-5">
             <div className="flex-column w-full justify-center text-center pt-10 pb-2 relative">
                 <div className="hidden md:block left-0 bottom-16 absolute">
                     <Image src={coinIcon} />
                 </div>
-                <h1 style={{ textAlign: 'center' }} className=" text-6xl font-bold py-4">{text ? text.homePageText15 : 'Digital Assets'}</h1>
+                <h1 style={{ textAlign: 'center' }} className="digitalAssetsHeadingText py-4">{text ? text.homePageText15 : 'Digital Assets'}</h1>
                 {/* <h3 className="thirdHeadingText pt-5 pb-1 font-bold">
                     {text.homePageText16 ? text.homePageText16 : 'Send, Recieve or Collect'}
                 </h3> */}
-                <p className="commonMid1Text text-2xl font-bold pt-2 pb-10">
+                <p className="digitalAssetsCommonText pt-2 pb-10">
                     {text.homePageText17 ? text.homePageText17 : 'Send and recieve digital assets with or without a digital walle'}
                 </p>
             </div>
@@ -57,8 +57,8 @@ const DigitalAssets = ({ text }) => {
                     <div className="w-full border-b-2"></div>
 
                     <ul className="cardListText p-3 lg:pl-8 lg:pt-8">
-                        <li className="p-5 flex items-start">
-                            <div className="w-10 mr-1">
+                        <li className="p-5 flex items-start ">
+                            <div className="w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -66,7 +66,7 @@ const DigitalAssets = ({ text }) => {
                             </p>
                         </li>
                         <li className="p-5 flex items-start">
-                            <div className="w-10 mr-1">
+                            <div className="w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -75,7 +75,7 @@ const DigitalAssets = ({ text }) => {
 
                         </li>
                         <li className="p-5 flex items-start">
-                            <div className="w-10 mr-1">
+                            <div className="w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -94,7 +94,7 @@ const DigitalAssets = ({ text }) => {
 
                     <ul className="cardListText p-3 lg:pl-8 lg:pt-8">
                         <li className="p-5 flex items-start">
-                            <div className="w-10 mr-1">
+                            <div className="w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -102,7 +102,7 @@ const DigitalAssets = ({ text }) => {
                             </p>
                         </li>
                         <li className="p-5 flex items-start">
-                            <div className="w-10 mr-1">
+                            <div className="w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -111,7 +111,7 @@ const DigitalAssets = ({ text }) => {
                         </li>
                         <li className="p-5 flex items-start">
 
-                            <div className="w-10 mr-1">
+                            <div className="w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="mt-0">

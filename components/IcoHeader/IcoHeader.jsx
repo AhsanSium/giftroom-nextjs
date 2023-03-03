@@ -60,20 +60,20 @@ const IcoHeader = ({ text }) => {
                 <div className="w-full lg:w-6/12">
                     {
                         text.icoPageText2 ?
-                            <h1 className="text-5xl md:text-7xl font-extrabold  text-black text-left">
+                            <h1 className="icoHeaderh1Text text-black text-left">
                                 {text.icoPageText2.split("br")[0]}
                                 {React.createElement('br')}
                                 {text.icoPageText2.split("br")[1]}
                             </h1>
                             :
-                            <h1 className="text-5xl md:text-7xl font-extrabold text-black text-left">
+                            <h1 className="icoHeaderh1Text text-black text-left">
                                 Earlybirds, The <br /> $gifttoken Pre-Sale
                             </h1>
                     }
-                    <p className="commonMid1Text font-semibold text-2xl text-black mt-8">{text.icoPageText4 ? text.icoPageText4 : 'Receive free  $gift for sending gifts or donation'}</p>
+                    <p className="icoHeaderMidText text-black mt-8 mb-4">{text.icoPageText4 ? text.icoPageText4 : 'Receive free  $gift for sending gifts or donation'}</p>
                     <div className="pb-5">
                         <a href="/ico#rewards">
-                            <button className="commonMid1Text py-2 my-2 text-xl text-white rounded-full bg-[#8639E8] px-10 hover:bg-white hover:text-black border-2 hover:border-black active:bg-slate-100">
+                            <button className=" py-2 my-2 text-xl text-white rounded-full bg-[#8639E8] px-10 hover:bg-white hover:text-black border-2 hover:border-black active:bg-slate-100">
                                 Rewards
                             </button>
                         </a>
@@ -81,8 +81,8 @@ const IcoHeader = ({ text }) => {
                 </div>
 
 
-                <div style={{ fontFamily: 'Inter', color: 'black' }} className="sm:w-full md:w-6/12 lg:w-4/12 flex-col mx-auto justify-center content-center icoPageBoxStyle p-5 lg:py-16 sm:mt-4 z-10 bg-white">
-                    <h3 style={{ fontWeight: '900', textShadow: '1px 0 black' }} className="py-10 text-center text-black text-4xl">Join the waitlist, be the <br /> first to invest</h3>
+                <div className="sm:w-full md:w-6/12 lg:w-4/12 flex-col mx-auto justify-center content-center icoPageBoxStyle p-5 lg:py-16 sm:mt-4 z-10 bg-white">
+                    <h3 style={{ textShadow: '1px 0 black' }} className="py-10 text-center text-black icoMailSubscribeText ">Join the waitlist, be the <br /> first to invest</h3>
 
 
 

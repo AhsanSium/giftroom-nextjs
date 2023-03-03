@@ -95,7 +95,7 @@ export async function getServerSideProps({ params }) {
   })
     .then(response => response.json())
     .then((data) => {
-      console.log("DATA => ", data[0][0].content);
+      //onsole.log("DATA => ", data[0][0].content);
       textData = JSON.parse(data && data[0][0].content);
     }
     )

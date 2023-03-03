@@ -27,6 +27,7 @@ export default function ICO({ text }) {
                     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
                     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
                 </style>
+
             </Head>
 
             <main>
@@ -94,7 +95,7 @@ export default function ICO({ text }) {
 
             </main>
 
-            <footer style={{ background: '#E61184', color: 'white' }} className="">
+            <footer style={{ background: '#E61184', color: 'white' }} className="pt-20 pb-10">
                 <IcoFooter />
             </footer>
         </div>

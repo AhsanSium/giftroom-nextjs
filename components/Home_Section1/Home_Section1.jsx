@@ -36,12 +36,12 @@ const Home_Section1 = ({ text }) => {
             style={{ backgroundImage: `url("${partyPopperImage.src}")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right' }}
         >
 
-            <h1 className="text-6xl font-bold py-3">{text.homePageText4 ? text.homePageText4 : 'Connect'}</h1>
+            <h1 className="headingText2 py-3">{text.homePageText4 ? text.homePageText4 : 'Connect'}</h1>
 
             {/* <h3 style={{ fontWeight: '900', fontSize: '40px', textShadow: '1px 0 black', letterSpacing: '-0.02em' }} className=" my-6 text-black text-4xl"
             >{text.homePageText5 ? text.homePageText5 : 'Designed for everyone'} </h3> */}
 
-            <p style={{ fontWeight: '500' }} className="midText pt-2 lg:w-7/12">
+            <p style={{ fontWeight: '500' }} className="commonNewText pt-2 lg:w-7/12">
                 {text.homePageText6 ? text.homePageText6 : 'We aim to innovate the world of digital assets. We make blockchain technology easy to use allowing users to send and collect with convenience.'}
             </p>
 

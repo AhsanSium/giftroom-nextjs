@@ -3,7 +3,7 @@
 // import { useInView } from "react-intersection-observer";
 // import { useEffect } from "react";
 import React from "react";
-import blueTickImage from "../../public/Assets/Images/approve-badge.png";
+import blueTickImage from "../../public/Assets/Images/BlueTickNew.svg";
 import downArrow from "../../public/Assets/Images/ArrowDown.svg";
 import leftArrow from "../../public/Assets/Images/Left arrow.svg";
 import rightArrow from "../../public/Assets/Images/Right arrow.svg";
@@ -48,13 +48,13 @@ const GetVerified = ({ text }) => {
 
                 {
                     text.homePageText11 ?
-                        <h3 style={{ fontWeight: '900', textShadow: '.5px 0 #000000', letterSpacing: '-0.02em' }} className="midSectionText mt-3">
+                        <h3 className="artistHeadingText mt-3">
                             {text.homePageText11.split("br")[0]}
                             {React.createElement('br')}
                             {text.homePageText11.split("br")[1]}
                         </h3>
                         :
-                        <h3 style={{ fontWeight: '900', textShadow: '.5px 0 #000000', letterSpacing: '-0.02em' }} className="midSectionText mt-3">
+                        <h3 className="artistHeadingText mt-3">
                             Get verified and connect  <br /> with your fan base in a new way
                         </h3>
                 }
@@ -63,7 +63,7 @@ const GetVerified = ({ text }) => {
 
 
 
-                <div className="ml-2 md:ml-5 absolute bottom-14 left-[37rem]">
+                <div className="ml-2 md:ml-5 absolute bottom-[5rem] left-[50rem]">
                     <img className="w-[100px]" src={blueTickImage.src} />
                 </div>
             </div>
