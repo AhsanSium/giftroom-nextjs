@@ -35,7 +35,7 @@ const ComingSoon = () => {
 
             className="my-12 pb-20 pt-20">
             <div className="container mx-auto p-5">
-                <h2 className="digitalAssetsHeadingText">Coming Soon..</h2>
+                <h2 className="headingTextNew3 text-center">Coming Soon..</h2>
             </div>
             <div className="container mx-auto p-5 lg:flex  pb-16">
 

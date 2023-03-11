@@ -4,12 +4,6 @@ import IcoMenu from '../../components/IcoMenu/IcoMenu'
 import IcoMission from '../../components/IcoMission/IcoMission';
 import moneyImage from "../../public/Assets/Images/Money ICO Header.png";
 import IcoRewards from '../../components/IcoRewards/IcoRewards';
-import IcoTokenomics from '../../components/Tokenomics/IcoTokenomics';
-import IcoGiftToken from '../../components/IcoGiftToken/IcoGiftToken';
-import IcoRoadmap from '../../components/IcoRoadmap/IcoRoadmap';
-import giftBox from "../../public/Assets/Images/GiftBox.svg";
-import IcoHowtoBuy from '../../components/IcoHowToBuy/IcoHowtoBuy';
-import IcoEarlyBirds from '../../components/IcoEarlyBirds/IcoEarlyBirds';
 import IcoFooter from '../../components/IcoFooter/IcoFooter';
 
 export default function ICO({ text }) {

@@ -35,9 +35,9 @@ const IcoRewards = ({ text }) => {
         <div
 
             className="mx-5 bg-white px-10 pb-10" style={{ borderRadius: '44px' }}>
-            <div className="flex pt-10 md:pt-40 w-full">
-                <div className="w-9/12 md:w-9/12 lg:w-10/12">
-                    <h1 className="w-full lg:w-8/12 icoRewardsHeadingh1Text  text-black text-left">
+            <div className="md:flex justify-center pt-10 md:pt-40 w-full">
+                <div className="md:w-9/12 lg:w-10/12">
+                    <h1 className="w-full lg:w-8/12 icoRewardsHeadingh1Text  text-black text-center md:text-left pb-6">
                         {text.icoPageText9 ? text.icoPageText9 : 'Rewards'}
                     </h1>
                     {/* <h5 className="commonMid1Text font-semibold text-2xl text-black my-4" >
@@ -47,15 +47,17 @@ const IcoRewards = ({ text }) => {
                         {text.icoPageText11 ? text.icoPageText11 : 'We aims to innovate the world of digital assets. We make blockchain technology easy to use with our user-friendly interface allowing users to send and collect with convenience.'}
                     </p> */}
                 </div>
-                <div className="w-3/12 md:w-3/12 lg:w-2/12">
-                    <Image src={medalImage} />
+                <div className="flex justify-center md:block md:w-3/12 lg:w-2/12">
+                    <span className="w-3/12">
+                        <Image src={medalImage} />
+                    </span>
                 </div>
             </div>
 
 
             <div className="lg:flex just-fy-center lg:justify-start items-center pb-20">
 
-                <div className="md:flex justify-center p-2 md:w-8/12 w-full">
+                <div className="md:flex justify-center p-2 lg:w-8/12 w-full">
 
                     <div className="w-full md:w-4/12 digitalCardStyle1 m-2 pb-20">
                         <h3 className="icoRewardsCardHeading text-center font-bold text-white p-3">For Gifting</h3>

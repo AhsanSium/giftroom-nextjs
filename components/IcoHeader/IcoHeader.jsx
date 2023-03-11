@@ -41,8 +41,8 @@ const IcoHeader = ({ text }) => {
                 <h3 style={{ fontWeight: '700', fontSize: '20px' }} className="text-[#6A708D] text-lg font-[DM Sans]">{text.icoPageText1 ? text.icoPageText1 : 'INITIAL COIN OFFERING'}</h3>
             </div>
 
-            <div className="flex justify-center">
-                <img style={{ width: '280px' }} src={giftRoomLogo.src} />
+            <div className="flex justify-center h-32">
+                {/* <img style={{ width: '280px' }} src={giftRoomLogo.src} /> */}
             </div>
 
             <input ref={modalRef} type="checkbox" id="my-modal-5" className="modal-toggle" />
@@ -81,7 +81,7 @@ const IcoHeader = ({ text }) => {
                 </div>
 
 
-                <div className="sm:w-full md:w-6/12 lg:w-4/12 flex-col mx-auto justify-center content-center icoPageBoxStyle p-5 lg:py-16 sm:mt-4 z-10 bg-white">
+                <div className="w-full md:w-[35rem] flex-col mx-auto justify-center content-center icoPageBoxStyle md:p-5 lg:py-16 sm:mt-4 z-10 bg-white">
                     <h3 style={{ textShadow: '1px 0 black' }} className="py-10 text-center text-black icoMailSubscribeText ">Join the waitlist, be the <br /> first to invest</h3>
 
 

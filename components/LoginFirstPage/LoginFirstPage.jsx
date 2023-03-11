@@ -60,7 +60,7 @@ const LoginFirstPage = () => {
                 </div>
 
                 <div className="w-full md:w-5/12 px-5 flex-col justify-center items-center">
-                    <div className="md:ml-8 w-full lg:w-[450px] md:px-8">
+                    <div className="md:ml-8 w-full md:px-8">
 
                         <h5 className="icoMailSubscribeText text-black my-4" >Account Login</h5>
                         <p className=" font-[poppins] text-slate-500">If you are already a member you can login with your email address and password.</p>

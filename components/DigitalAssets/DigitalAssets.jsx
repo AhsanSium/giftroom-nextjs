@@ -36,10 +36,10 @@ const DigitalAssets = ({ text }) => {
         <div
             className="sm:mt-20 md:mt-32 lg:mt-10 mx-auto p-5">
             <div className="flex-column w-full justify-center text-center pt-10 pb-2 relative">
-                <div className="hidden md:block left-0 bottom-16 absolute">
+                <div className="hidden lg:block left-0 bottom-16 absolute">
                     <Image src={coinIcon} />
                 </div>
-                <h1 style={{ textAlign: 'center' }} className="digitalAssetsHeadingText py-4">{text ? text.homePageText15 : 'Digital Assets'}</h1>
+                <h1 style={{ textAlign: 'center' }} className="headingTextNew3 py-4">{text ? text.homePageText15 : 'Digital Assets'}</h1>
                 {/* <h3 className="thirdHeadingText pt-5 pb-1 font-bold">
                     {text.homePageText16 ? text.homePageText16 : 'Send, Recieve or Collect'}
                 </h3> */}
@@ -50,23 +50,23 @@ const DigitalAssets = ({ text }) => {
 
             <div className="md:flex justify-center  p-2">
 
-                <div className="md:w-6/12 lg:w-4/12 h-[32rem] digitalCardStyle1 m-2 hover:shadowed
+                <div className="w-full md:w-6/12 lg:w-4/12 h-auto py-4 digitalCardStyle1 m-2 hover:shadowed lg:min-h-[38rem]
                 ">
                     <h3 className="cardHeadingText font-italic text-center p-3">Gifts</h3>
 
                     <div className="w-full border-b-2"></div>
 
-                    <ul className="cardListText p-3 lg:pl-8 lg:pt-8">
-                        <li className="p-5 flex items-start ">
-                            <div className="w-14 mr-1">
-                                <Image src={checkCircle} />
+                    <ul className="cardListText py-5 lg:pl-8 lg:pt-8">
+                        <li className="p-5 flex lg:items-start ">
+                            <div className="flex justify-center items-center w-10 lg:w-14 mr-1">
+                                <Image className="" src={checkCircle} />
                             </div>
                             <p className="">
                                 Unlimited Supply
                             </p>
                         </li>
-                        <li className="p-5 flex items-start">
-                            <div className="w-14 mr-1">
+                        <li className="p-5 flex lg:items-start">
+                            <div className="flex justify-center items-center w-10 lg:w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -74,8 +74,8 @@ const DigitalAssets = ({ text }) => {
                             </p>
 
                         </li>
-                        <li className="p-5 flex items-start">
-                            <div className="w-14 mr-1">
+                        <li className="p-5 flex lg:items-start">
+                            <div className="flex justify-center items-center w-10 lg:w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
@@ -87,31 +87,30 @@ const DigitalAssets = ({ text }) => {
                 </div>
 
 
-
-                <div className="md:w-6/12 lg:w-4/12 h-[32rem] digitalCardStyle2 m-2 xl:min-h-[450px]">
+                <div className="w-full md:w-6/12 lg:w-4/12 digitalCardStyle2 m-2 lg:min-h-[38rem] mt-10 md:mt-0">
                     <h3 className="cardHeadingText text-center  p-3  ">Collectibles</h3>
                     <div className="w-full border-b-2"></div>
 
-                    <ul className="cardListText p-3 lg:pl-8 lg:pt-8">
-                        <li className="p-5 flex items-start">
-                            <div className="w-14 mr-1">
+                    <ul className="cardListText py-5 lg:pl-8 lg:pt-8">
+                        <li className="p-5 flex lg:items-start">
+                            <div className="flex justify-center items-center w-10 lg:w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
                                 Limited Supply
                             </p>
                         </li>
-                        <li className="p-5 flex items-start">
-                            <div className="w-14 mr-1">
+                        <li className="p-5 flex lg:items-start">
+                            <div className="flex justify-center items-center w-10 lg:w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="">
                                 Made by Artists
                             </p>
                         </li>
-                        <li className="p-5 flex items-start">
+                        <li className="p-5 flex lg:items-start">
 
-                            <div className="w-14 mr-1">
+                            <div className="flex justify-center items-center w-10 lg:w-14 mr-1">
                                 <Image src={checkCircle} />
                             </div>
                             <p className="mt-0">

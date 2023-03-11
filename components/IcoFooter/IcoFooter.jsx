@@ -27,8 +27,11 @@ const IcoFooter = () => {
                     <div className="w-full md:w-7/12 ">
 
 
+
                         <div className="flex justify-center">
-                            <img style={{ width: '280px' }} src={giftRoomLogo.src} />
+                            <span className="w-8/12">
+                                <Image src={giftRoomLogo} />
+                            </span>
                         </div>
 
                         <input ref={modalRef} type="checkbox" id="my-modal-5" className="modal-toggle" />
@@ -44,7 +47,7 @@ const IcoFooter = () => {
 
                         <div className=" flex flex-col justify-center items-center ">
 
-                            <h2 style={{ color: 'white' }} className="icoFooterHeadingText ">Join the waitlist</h2>
+                            <h2 style={{ color: 'white' }} className="thirdHeadingText  text-center ">Join the waitlist</h2>
 
                             {/* <p className="commonMid1Text text-lg p-2">Subscribe and be notified of upcoming collections </p> */}
 

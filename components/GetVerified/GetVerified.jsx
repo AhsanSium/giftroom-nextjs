@@ -48,13 +48,13 @@ const GetVerified = ({ text }) => {
 
                 {
                     text.homePageText11 ?
-                        <h3 className="artistHeadingText mt-3">
+                        <h3 className="text-center md:text-left artistHeadingText mt-3">
                             {text.homePageText11.split("br")[0]}
                             {React.createElement('br')}
                             {text.homePageText11.split("br")[1]}
                         </h3>
                         :
-                        <h3 className="artistHeadingText mt-3">
+                        <h3 className="artistHeadingText text-center md:text-left mt-3">
                             Get verified and connect  <br /> with your fan base in a new way
                         </h3>
                 }

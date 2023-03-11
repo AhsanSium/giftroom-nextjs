@@ -4,6 +4,7 @@ import logo_image_black from "../../public/Assets/Images/GiftRoom Logo Black.png
 import { useState } from 'react';
 import styles from "../../styles/Menu.module.css";
 import Link from "next/link";
+import { useRef } from 'react';
 
 function NavLink({ to, children }) {
     return <a href={to} className={`mx-2 pl-5 my-3 shadow md:shadow-none p-2 active:shadow-lg md:active:shadow-none rounded-lg`}>
@@ -18,6 +19,7 @@ function NavLink1({ to, children }) {
 }
 
 function MobileNav({ open, setOpen }) {
+
     return (
         <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md z-10`}>
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*logo container*/}
@@ -49,22 +51,28 @@ function MobileNav({ open, setOpen }) {
 
 export default function Menu() {
 
-    const [open, setOpen] = useState(false)
+
+    const [open, setOpen] = useState(false);
+
+
+    if (typeof window !== 'undefined') {
+        const windowSize = useRef([window.innerWidth, window.innerHeight]);
+    }
+
     return (
-        <nav className="flex filter text-white  px-4 pt-2 h-18 items-center bg-[#3772FF]">
+        <nav className="flex filter text-white  mx-4 pt-2 h-18 items-center bg-[#3772FF]">
             <MobileNav open={open} setOpen={setOpen} />
 
 
-
-            <div className="mx-4 md:mx-0 lg:mx-4">
+            <div className="mx-4 md:mx-0 lg:mx-4 w-10/12 md:w-4/12 lg:w-auto">
 
                 <a href="/" className="cursor-pointer" >
-                    <Image src={logo_image} alt="giftroom logo" />
+                    <img src={logo_image.src} alt="giftroom logo" w="100%" />
                 </a>
             </div>
             <span className={[styles.separatorSpan, "hidden md:flex ml-2"].join(' ')} />
-            <div className="px-2 lg:w-4/12 flex items-center">
 
+            <div className="px-2 lg:w-4/12 flex items-center">
 
                 <div className={[styles.menuMidText, "ml-2 lg:ml-5 hidden md:flex"].join(' ')} >
                     <NavLink to="/">

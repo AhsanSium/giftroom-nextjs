@@ -31,26 +31,26 @@ const IcoMission = ({ text }) => {
         //     animate={control}
         <div
 
-            className="mx-5 bg-white px-10 pb-10 h-[1050px] lg:h-[900px]" style={{ borderRadius: '44px' }}>
+            className="mx-5 bg-white px-5 md:px-10 pb-10" style={{ borderRadius: '44px' }}>
             <div className="pt-10 md:pt-40 w-full md:w-5/12">
-                <h1 className="py-4 icoMissionHeadingh1Text  text-black text-left">
+                <h1 className="py-4 icoMissionHeadingh1Text  text-black text-center md:text-left">
                     {text.icoPageText3 ? text.icoPageText3 : 'Mission'}
 
                 </h1>
                 {/* <h5 className="commonMid1Text font-semibold text-2xl text-black my-4">{text.icoPageText4 ? text.icoPageText4 : 'Receive free  $gift for sending gifts or donations'}</h5> */}
-                <p className="icoMissionP1Text text-2xl py-3">
+                <p className="icoMissionP1Text text-left py-3">
                     {text.icoPageText5 ? text.icoPageText5 : 'We aims to innovate the world of digital assets. We make blockchain technology easy to use with our user-friendly interface allowing users to send and collect with convenience.'}
 
                 </p>
             </div>
 
             <div className="w-full md:w-7/12 ml-auto pt-12 ">
-                <div className="flex justify-between h-[300px] mb-20 ">
-                    <div className="">
+                <div className="flex justify-between mb-20 ">
+                    <div className="hidden lg:block">
                         <Image src={coinImage} />
                     </div>
-                    <div className="mt-20">
-                        <h1 className="py-4 icoMissionHeadingh2Text text-black text-left">
+                    <div className="mt-20 w-full">
+                        <h1 className="py-4 icoMissionHeadingh1Text text-black text-center md:text-left">
                             {text.icoPageText6 ? text.icoPageText6 : '$giftroom'}
                         </h1>
 

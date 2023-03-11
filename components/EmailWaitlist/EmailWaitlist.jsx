@@ -17,8 +17,10 @@ const EmailWaitlist = ({ text, modalRef }) => {
 
 
             <div className="flex-col items-center justify-center lg:w-5/12 mx-auto">
-                <div className="flex justify-center">
-                    <Image src={logoImage} />
+                <div className="flex justify-center items-center">
+                    <span className="w-8/12">
+                        <Image src={logoImage} />
+                    </span>
                 </div>
                 <div className="mx-5">
                     <h3 style={{ color: 'white' }} className="thirdHeadingText  text-center font-semibold">{text ? text.homePageText21 : 'Join the waitlist'}</h3>

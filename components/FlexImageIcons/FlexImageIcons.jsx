@@ -10,7 +10,7 @@ import masterCardImage from "../../public/Assets/Images/Mastercard.svg";
 
 const FlexImageIcons = () => {
     return (
-        <div className="md:flex py-20 space-x-1">
+        <div className="md:flex justify-center py-20 space-x-1">
             <div className="px-10 mx-auto">
 
                 <Image className='cursor-pointer' src={ethereumImage} />

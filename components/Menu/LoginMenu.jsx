@@ -56,15 +56,14 @@ export default function LoginMenu() {
 
 
 
-            <div className="mx-4 md:mx-0 lg:mx-4">
+            <div className="mx-4 md:mx-0 lg:mx-4 w-10/12 md:w-4/12 lg:w-2/12">
 
-                <a href="/" className="cursor-pointer" >
+                <a href="/" className="cursor-pointer w-full" >
                     <Image src={logo_image} alt="giftroom logo" />
                 </a>
             </div>
             <span className={[styles.separatorSpan, "hidden md:flex ml-2"].join(' ')} />
             <div className="px-2 lg:w-4/12 flex items-center">
-
 
                 <div className={[styles.menuMidText, "ml-2 lg:ml-5 hidden md:flex"].join(' ')} >
                     <NavLink to="/">
@@ -87,6 +86,11 @@ export default function LoginMenu() {
                     <svg className="w-5 h-5 text-white " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
             </div> */}
+
+            <div className="hidden lg:flex w-4/12 flex">
+
+            </div>
+
             <div className="w-full flex justify-end items-center">
 
                 <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
@@ -101,7 +105,7 @@ export default function LoginMenu() {
                 <div className={[styles.menuMidText, " ml-5 hidden md:flex"].join(' ')}>
 
                     <Link href="/">
-                        <button className=" mr-2 w-24 lg:w-32 bg-transparent py-2 px-4
+                        <button className=" mr-2 bg-transparent py-2 px-4
                         border-2
                         text-white
                         rounded-full hover:bg-blue-500 hover:text-white
