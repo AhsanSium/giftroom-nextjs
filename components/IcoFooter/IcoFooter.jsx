@@ -24,12 +24,12 @@ const IcoFooter = () => {
 
 
 
-                    <div className="w-full md:w-7/12 ">
+                    <div className="w-full md:w-7/12 mx-auto">
 
 
 
-                        <div className="flex justify-center">
-                            <span className="w-8/12">
+                        <div className="flex justify-center items-center">
+                            <span className="w-8/12 flex justify-center">
                                 <Image src={giftRoomLogo} />
                             </span>
                         </div>
