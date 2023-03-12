@@ -35,10 +35,10 @@ const DigitalAssets = ({ text }) => {
         //     animate={control}
         <div
             className="sm:mt-20 md:mt-32 lg:mt-10 mx-auto p-5">
-            <div className="flex-column w-full justify-center text-center pt-10 pb-2 relative">
-                <div className="hidden lg:block left-0 bottom-16 absolute">
+            <div className="flex-column w-full justify-center text-center pt-10 pb-2 coinImage" style={{ backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundPosition: 'left 0px top 0rem' }}>
+                {/* <div className="hidden lg:block left-0 bottom-16 absolute" style={{ backgroundImage: `url("${mainImage.src}")`, backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundPosition: 'right 0px top 20px' }}>
                     <Image src={coinIcon} />
-                </div>
+                </div> */}
                 <h1 style={{ textAlign: 'center' }} className="headingTextNew3 py-4">{text ? text.homePageText15 : 'Digital Assets'}</h1>
                 {/* <h3 className="thirdHeadingText pt-5 pb-1 font-bold">
                     {text.homePageText16 ? text.homePageText16 : 'Send, Recieve or Collect'}
@@ -87,7 +87,8 @@ const DigitalAssets = ({ text }) => {
                 </div>
 
 
-                <div className="w-full md:w-6/12 lg:w-4/12 digitalCardStyle2 m-2 lg:min-h-[38rem] mt-10 md:mt-0">
+                <div className="w-full md:w-6/12 lg:w-4/12 h-auto py-4 digitalCardStyle2 m-2 hover:shadowed lg:min-h-[38rem]
+                ">
                     <h3 className="cardHeadingText text-center  p-3  ">Collectibles</h3>
                     <div className="w-full border-b-2"></div>
 

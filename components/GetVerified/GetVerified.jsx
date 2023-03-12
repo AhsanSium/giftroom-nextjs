@@ -63,8 +63,8 @@ const GetVerified = ({ text }) => {
 
 
 
-                <div className="ml-2 md:ml-5 absolute bottom-[5rem] left-[50rem]">
-                    <img className="w-[100px]" src={blueTickImage.src} />
+                <div className="ml-2 md:ml-5 absolute bottom-[5rem] left-[52rem]">
+                    <img className="w-[5rem]" src={blueTickImage.src} />
                 </div>
             </div>
 

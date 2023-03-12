@@ -108,7 +108,7 @@ export default function Menu() {
 
                 <div className={[styles.menuMidText, " ml-5 hidden md:flex"].join(' ')}>
 
-                    <Link href="/ico">
+                    <a href="/ico">
                         <button className=" mr-2 w-24 lg:w-32 bg-white py-2 px-4
                         border-2
                         text-black
@@ -119,11 +119,11 @@ export default function Menu() {
                             ICO
 
                         </button>
-                    </Link>
+                    </a>
 
                     {/* <NavLink to="/ico">
                     </NavLink> */}
-                    <Link className="ml-4" href="/login">
+                    <a className="ml-4" href="/login">
                         <button className="w-24 lg:w-32 mr-2 bg-[#DC02AC] text-white py-[10px] px-[10px] rounded-full hover:bg-white
                         border-2
                         hover:text-black
@@ -131,7 +131,7 @@ export default function Menu() {
                         ">
                             Login
                         </button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </nav>

@@ -758,3 +758,10 @@ a {
   }
 
 }
+
+
+@media only screen and (min-width:800px) {
+  .coinImage {
+    background-image: url("../public/Assets/Images/coin-Icon.svg")
+  }
+}

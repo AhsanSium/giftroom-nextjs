@@ -104,7 +104,7 @@ export default function LoginMenu() {
 
                 <div className={[styles.menuMidText, " ml-5 hidden md:flex"].join(' ')}>
 
-                    <Link href="/">
+                    <a href="/">
                         <button className=" mr-2 bg-transparent py-2 px-4
                         border-2
                         text-white
@@ -116,7 +116,7 @@ export default function LoginMenu() {
                             $gifttoken
 
                         </button>
-                    </Link>
+                    </a>
 
                     {/* <NavLink to="/ico">
                     </NavLink> */}
