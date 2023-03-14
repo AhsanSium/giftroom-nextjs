@@ -1,17 +1,16 @@
 import Head from 'next/head';
-
-import Collabrations from '../components/Collabrations/Collabrations';
+//import Collabrations from '../components/Collabrations/Collabrations';
 import ComingSoon from '../components/ComingSoon/ComingSoon';
 import DigitalAssets from '../components/DigitalAssets/DigitalAssets';
 import EmailWaitlist from '../components/EmailWaitlist/EmailWaitlist';
 
 import GetVerified from '../components/GetVerified/GetVerified';
 import GiftingAndCollecting from '../components/GiftingandCollecting/GiftingAndCollecting';
-import HomeBanner from '../components/HomeBanner/HomeBanner';
+//import HomeBanner from '../components/HomeBanner/HomeBanner';
 import Home_Header from '../components/Home_Header/Home_Header';
 import Home_Section1 from '../components/Home_Section1/Home_Section1';
-import Home_Section2 from '../components/Home_Section2/Home_Section2';
-import HowItWorks from '../components/HowItWorks/HowItWorks';
+//import Home_Section2 from '../components/Home_Section2/Home_Section2';
+//import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Menu from '../components/Menu/Menu';
 import { useRef } from "react";
 import mainImage from "../public/Assets/Images/Giftroom Main Header.png";
@@ -29,13 +28,20 @@ export default function Home({ text }) {
         <title>Giftroom</title>
         <meta name="description" content="Giftroom, An NFT buying platform" />
         <link rel="icon" href="/favicon.ico" />
-        <style>
+        {/* <style>
           @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-        </style>
+        </style> */}
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet" />
+
       </Head>
 
       <main className='w-full' style={{ background: '#3772FF', color: 'black' }}>
