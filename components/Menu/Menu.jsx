@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
+import logo_image2 from "../../public/Assets/Images/GiftRoomWhiteLogo (2).png";
 import logo_image_black from "../../public/Assets/Images/GiftRoom Logo Black.png";
 import { useState } from 'react';
 import styles from "../../styles/Menu.module.css";
@@ -64,10 +65,10 @@ export default function Menu() {
             <MobileNav open={open} setOpen={setOpen} />
 
 
-            <div className="mx-4 md:mx-0 lg:mx-4 w-10/12 md:w-4/12 lg:w-auto">
+            <div className="mx-4 md:mx-0 lg:mx-4 w-10/12 md:w-auto lg:w-auto">
 
                 <a href="/" className="cursor-pointer" >
-                    <img src={logo_image.src} alt="giftroom logo" w="100%" />
+                    <img style={{ width: "175px", height: "69.5px" }} src={logo_image2.src} alt="giftroom logo" />
                 </a>
             </div>
             <span className={[styles.separatorSpan, "hidden md:flex ml-2"].join(' ')} />
