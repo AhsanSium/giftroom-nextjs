@@ -33,7 +33,7 @@ const GiftingAndCollecting = ({ text }) => {
         //     initial="hidden"
         //     animate={control}
         <div
-            className=" flex justify-start  bg-contain bg-auto bg-no-repeat bg-right-bottom mx-auto p-5 pb-20 lg:px-16 " style={{ backgroundImage: `url("${globBg.src}")`, backgroundPosition: "right 10px top 300px" }}
+            className=" flex justify-start bg-auto bg-no-repeat bg-right-bottom mx-auto p-5 pb-20 lg:px-16 " style={{ backgroundImage: `url("${globBg.src}")`, backgroundPosition: "right 10px top 300px", background: "contain", backgroundSize: "672px 595px" }}
         >
             <div className="mt-5 md:mt-10">
                 <h1 className="text-end headingTextNew3 ">{text.homePageText12 ? text.homePageText12 : 'Next-Gen Gifting and Collecting'}</h1>
