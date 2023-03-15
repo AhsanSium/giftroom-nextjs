@@ -46,7 +46,7 @@ export default function Home({ text }) {
 
       <main className='w-full' style={{ background: '#3772FF', color: 'black' }}>
         <Menu />
-        <div className='bg-white mx-4 rounded-t-[44px] pt-10'>
+        <div className='bg-white mx-4 rounded-t-[44px] md:pt-10 '>
           <section className='' id="home-section"
             style={{ backgroundImage: `url("${mainImage.src}")`, backgroundRepeat: 'no-repeat', backgroundAttachment: 'scroll', backgroundPosition: 'right 0px top 20px' }}
           >

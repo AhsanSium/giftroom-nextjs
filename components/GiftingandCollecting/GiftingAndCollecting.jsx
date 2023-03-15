@@ -33,18 +33,20 @@ const GiftingAndCollecting = ({ text }) => {
         //     initial="hidden"
         //     animate={control}
         <div
-            className=" flex justify-start  bg-contain bg-auto bg-no-repeat bg-right-bottom mx-auto p-5 pb-20 lg:px-16 " style={{ backgroundImage: `url("${globBg.src}")`, backgroundPosition: "right 10px top 390px" }}
+            className=" flex justify-start  bg-contain bg-auto bg-no-repeat bg-right-bottom mx-auto p-5 pb-20 lg:px-16 " style={{ backgroundImage: `url("${globBg.src}")`, backgroundPosition: "right 10px top 300px" }}
         >
-            <div className="mt-5 md:mt-32">
-                <h1 className="text-center md:text-end headingTextNew3 ">{text.homePageText12 ? text.homePageText12 : 'Next-Gen Gifting and Collecting'}</h1>
+            <div className="mt-5 md:mt-10">
+                <h1 className="text-end headingTextNew3 ">{text.homePageText12 ? text.homePageText12 : 'Next-Gen Gifting and Collecting'}</h1>
                 {/* <h3 style={{ lineHeight: '50px' }} className="text-end thirdHeadingText py-4">{text.homePageText13 ? text.homePageText13 : 'Socially Interact and Exchange'}</h3> */}
-                <p className="ml-auto mr-0 lg:w-7/12 py-3 commonNewText text-center md:text-end">
+                <p className="ml-auto mr-0 lg:w-8/12 py-3 commonNewText text-end">
                     {text.homePageText14 ? text.homePageText14 : 'We offer the perfect ability to engage and get acknowledgment from their audience. You can now'}
 
                 </p>
 
-                <div className='mt-32 flex-column justify-center lg:ml-20 xl:ml-40 lg:mt-60 transition-all duration-200'>
-                    <img className="cursor-pointer" src={jsonColeCardImage.src} />
+                <div className='flex-column justify-center lg:ml-20 xl:mt-44 transition-all duration-200'>
+                    <div style={{ maxWidth: '500px' }}>
+                        <img className="cursor-pointer" src={jsonColeCardImage.src} />
+                    </div>
                 </div>
 
                 {/* <div style={{ borderRadius: '40px' }} className='mt-32 flex-column cardStyle2 sm:w-[500px] sm:h-[440px] justify-center p-5 commonMid1Text transition-all duration-200 lg:ml-20 xl:ml-40 lg:mt-60 '>

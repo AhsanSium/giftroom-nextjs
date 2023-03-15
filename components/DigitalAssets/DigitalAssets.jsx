@@ -72,7 +72,6 @@ const DigitalAssets = ({ text }) => {
                             <p className="">
                                 Liquidity Guranteed
                             </p>
-
                         </li>
                         <li className="p-5 flex lg:items-start">
                             <div className="flex justify-center items-center w-10 lg:w-14 mr-1">

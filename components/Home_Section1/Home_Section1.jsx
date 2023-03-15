@@ -32,21 +32,21 @@ const Home_Section1 = ({ text }) => {
         //     initial="hidden"
         //     animate={control}
         <div
-            className="mx-auto p-5 pt-60  pb-28 lg:px-16 content-around"
+            className="mx-auto p-5 pt-60  pb-20 lg:px-16 content-around"
             style={{ backgroundImage: `url("${partyPopperImage.src}")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right' }}
         >
 
-            <h1 className="headingTextNew3 text-center md:text-left py-3">{text.homePageText4 ? text.homePageText4 : 'Connect'}</h1>
+            <h1 className="headingTextNew3 text-left py-3">{text.homePageText4 ? text.homePageText4 : 'Connect'}</h1>
 
             {/* <h3 style={{ fontWeight: '900', fontSize: '40px', textShadow: '1px 0 black', letterSpacing: '-0.02em' }} className=" my-6 text-black text-4xl"
             >{text.homePageText5 ? text.homePageText5 : 'Designed for everyone'} </h3> */}
 
-            <p style={{ fontWeight: '500' }} className="commonNewText text-center md:text-left pt-2 lg:w-7/12">
+            <p className="commonNewText text-left pt-2 lg:w-8/12">
                 {text.homePageText6 ? text.homePageText6 : 'We aim to innovate the world of digital assets. We make blockchain technology easy to use allowing users to send and collect with convenience.'}
             </p>
 
             <div className="md:flex relative pt-5" >
-                <div className="lg:w-9/12 py-2 tracking-wide self-start">
+                <div className="lg:w-8/12 py-2 tracking-wide self-start">
 
                     <div className="ml-1">
                         <Image src={home1Image} />
