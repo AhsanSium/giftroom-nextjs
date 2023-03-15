@@ -65,7 +65,7 @@ export default function IcoMenu() {
             </div>
 
             <span className={["separatorSpan1 hidden md:flex"].join(' ')} />
-            <div className="p-2 w-5/12 md:w-8/12 flex items-center">
+            <div className="px-2 w-5/12 md:w-8/12 flex items-center">
 
                 <div className={["menuMidText1 ml-5 hidden md:flex"].join(' ')} >
                     <NavLink to="/">

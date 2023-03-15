@@ -1,11 +1,11 @@
 import Image from "next/image";
-import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
-import logo_image2 from "../../public/Assets/Images/GiftRoomWhiteLogo (2).png";
+//import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
+//import logo_image2 from "../../public/Assets/Images/GiftRoomWhiteLogo (2).png";
 import logo_image3 from "../../public/Assets/Images/GiftRoomWhiteResized.png";
 import logo_image_black from "../../public/Assets/Images/GiftRoom Logo Black.png";
 import { useState } from 'react';
 import styles from "../../styles/Menu.module.css";
-import Link from "next/link";
+//import Link from "next/link";
 import { useRef } from 'react';
 
 function NavLink({ to, children }) {
@@ -127,7 +127,7 @@ export default function Menu() {
                     {/* <NavLink to="/ico">
                     </NavLink> */}
                     <a className="ml-4" href="/login">
-                        <button className="w-24 lg:w-32 mr-2 bg-[#DC02AC] text-white py-[10px] px-[10px] rounded-full hover:bg-blue-500
+                        <button className="w-24 lg:w-32 mr-2 bg-[#DC02AC] text-white py-2 px-4 rounded-full hover:bg-blue-500
                         border-2
                         border-[#DC02AC]
                         hover:border-white
