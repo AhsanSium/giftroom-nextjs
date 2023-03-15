@@ -1,9 +1,10 @@
 import Image from "next/image";
 import logo_image_black from "../../public/Assets/Images/GiftRoom Logo Black.png";
-import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
+//import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
 import { useState } from 'react';
-import styles from "../../styles/Menu.module.css";
-import Link from "next/link";
+//import styles from "../../styles/Menu.module.css";
+//import Link from "next/link";
+import logo_image3 from "../../public/Assets/Images/GiftRoomWhiteResized.png";
 
 function NavLink({ to, children }) {
     return <a href={to} className={` mx-2 pl-5 my-3 shadow md:shadow-none p-2 active:shadow-lg md:active:shadow-none rounded-lg`}>
@@ -56,9 +57,11 @@ export default function IcoMenu() {
         <nav className="flex filter bg-transparent px-4 pt-2 h-18 items-center ">
             <MobileNav open={open} setOpen={setOpen} />
             <div className="mx-4 md:mx-0 lg:mx-4 cursor-pointer">
-                <a href="/" className="" >
-                    <Image src={logo_image} alt="giftroom logo" />
-                </a>
+                <div style={{ minWidth: "150px" }}>
+                    <a href="/" className="cursor-pointer ml-2" >
+                        <Image src={logo_image3} alt="giftroom logo" />
+                    </a>
+                </div>
             </div>
 
             <span className={["separatorSpan1 hidden md:flex"].join(' ')} />

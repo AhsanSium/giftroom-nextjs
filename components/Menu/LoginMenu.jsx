@@ -1,5 +1,6 @@
 import Image from "next/image";
-import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
+//import logo_image from "../../public/Assets/Images/giftroom logo white.svg";
+import logo_image3 from "../../public/Assets/Images/GiftRoomWhiteResized.png";
 import logo_image_black from "../../public/Assets/Images/GiftRoom Logo Black.png";
 import { useState } from 'react';
 import styles from "../../styles/Menu.module.css";
@@ -58,9 +59,11 @@ export default function LoginMenu() {
 
             <div className="mx-4 md:mx-0 lg:mx-4 w-10/12 md:w-4/12 lg:w-2/12">
 
-                <a href="/" className="cursor-pointer w-full" >
-                    <Image src={logo_image} alt="giftroom logo" />
-                </a>
+                <div style={{ minWidth: '150px' }}>
+                    <a href="/" className="cursor-pointer ml-2" >
+                        <Image src={logo_image3} alt="giftroom logo" />
+                    </a>
+                </div>
             </div>
             <span className={[styles.separatorSpan, "hidden md:flex ml-2"].join(' ')} />
             <div className="px-2 lg:w-4/12 flex items-center">

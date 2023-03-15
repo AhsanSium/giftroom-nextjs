@@ -1,9 +1,9 @@
 import Image from "next/image";
 import giftRoomLogo from "../../public/Assets/Images/GiftRoom White Logo Large.svg";
-import facebookLogo from "../../public/Assets/Images/social (3).svg";
-import instagramLogo from "../../public/Assets/Images/social (2).svg";
-import youtubeLogo from "../../public/Assets/Images/social (1).svg";
-import linkedInLogo from "../../public/Assets/Images/social.svg";
+// import facebookLogo from "../../public/Assets/Images/social (3).svg";
+// import instagramLogo from "../../public/Assets/Images/social (2).svg";
+// import youtubeLogo from "../../public/Assets/Images/social (1).svg";
+// import linkedInLogo from "../../public/Assets/Images/social.svg";
 import { useRef } from "react";
 import NewsletterSubscribe from "../Common/NewsLetterSubscribe";
 
@@ -29,9 +29,11 @@ const IcoFooter = () => {
 
 
                         <div className="flex justify-center items-center">
-                            <span className="w-8/12 flex justify-center">
-                                <Image src={giftRoomLogo} />
-                            </span>
+                            <div className="w-8/12 flex justify-center">
+                                <div style={{ minWidth: '150px' }}>
+                                    <Image src={giftRoomLogo} />
+                                </div>
+                            </div>
                         </div>
 
                         <input ref={modalRef} type="checkbox" id="my-modal-5" className="modal-toggle" />
