@@ -124,9 +124,11 @@ export default function Menu() {
                     {/* <NavLink to="/ico">
                     </NavLink> */}
                     <a className="ml-4" href="/login">
-                        <button className="w-24 lg:w-32 mr-2 bg-[#DC02AC] text-white py-[10px] px-[10px] rounded-full hover:bg-white
+                        <button className="w-24 lg:w-32 mr-2 bg-[#DC02AC] text-white py-[10px] px-[10px] rounded-full hover:bg-blue-500
                         border-2
-                        hover:text-black
+                        border-[#DC02AC]
+                        hover:border-white
+                        hover:text-white
                         tracking-wider text-center
                         ">
                             Login
